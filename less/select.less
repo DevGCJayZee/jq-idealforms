@@ -78,7 +78,7 @@
     }
     &:after {
       .drop-arrow;
-      z-index: 2;
+      z-index: 1;
       border-color: transparent;
       border-top-color: darken(@select-title, 40%);
     }
@@ -124,7 +124,7 @@
     .select-scroll;
     position: absolute;
     min-width: 100%; /* `min-width` instead of `width` to fix IE9 bug */
-    z-index: 999;
+    z-index: 1;
     color: @select-sub-text;
     border: @border-width solid darken(@select-sub-bg, 30%);
     border-top: 0;
@@ -188,5 +188,6 @@
     Responsive:
   -------------------------------------------------------- */
   .ideal-form.stack .ideal-select-list {
+    z-index: 0;
     width: 100%;
   }
