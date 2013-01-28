@@ -17,8 +17,8 @@
 * Localization
 
 ### Updates:
-**11/29/12**
-* Add flags to grunt build and fix globalFlags not loading. 
+**01/28/13**
+* Fix z-index issues with datepicker. 
 
 [Update history](#update-history)
 
@@ -799,6 +799,10 @@ Radius for round corners.
 
 Update History:
 --------------
+
+**11/29/12**
+* Add flags to grunt build and fix globalFlags not loading. 
+
 **11/21/12**
 * Prevent modifier keys ( ctrl, meta, super... ) in select menu to avoid regexp error. 
 
